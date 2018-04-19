@@ -1,14 +1,14 @@
-; #NAME: EVE_MEDIAN_SPECTRA
+;#NAME: EVE_MEDIAN_SPECTRA
 
-; #AUTHOR:Zihao Yang, Peking University, April 1, 2018
+;#AUTHOR:Zihao Yang, Peking University, April 1, 2018
 
-; #PURPOSE: Derive the median spectrum of 2 hr EVE data
+;#PURPOSE: Derive the median spectrum of 2 hr EVE data
 ;           
 
-; #CAUTION: You need to specify the directory where your data are stored, if you want to merge data for longer durations, 
+;#CAUTION: You need to specify the directory where your data are stored, if you want to merge data for longer durations, 
 ;           you should change the value '720'  of 'a=fltarr(720)' and reset the steps of the loops.
 
-; #OUTPUT: A save file with parameters WVL (the eve wavelength, unchanged) and 
+;#OUTPUT: A save file with parameters WVL (the eve wavelength, unchanged) and 
 ;          IRR (median of the 720 10s observed irradiance for all 5200 wvl bin)
 
 pro eve_median_spectra
