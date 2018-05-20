@@ -29,4 +29,3 @@ for m=0,5199 do begin
 wvl=l2s1.spectrummeta.wavelength
 save,irr,wvl,filename='EVS_2011195_median.sav'
 end
-  
