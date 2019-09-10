@@ -14,7 +14,7 @@
 ;
 ;       From emissivity to intensity: I = integral (emiss * N_e * ioneq * dh), ioneq is the ion percentage from ionization equilibrium. 
 ;           This will be cancelled when deriving the line ratio, so we don't need to include it.
-;
+; 
 ;AUTHOR: Zihao Yang at Peking University, Sept. 7, 2019.
 
 
