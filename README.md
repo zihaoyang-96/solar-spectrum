@@ -7,3 +7,6 @@ The formation process of the coronal optical thin emission lines includes collis
 
 ## integral_emiss_calc.pro
 This code is used for calculating infrared forbidden line intensity ratio considering the line-of-sight effect and photo-excitation.
+
+## SDO/EVE data processing
+eve_median_spectra.pro and sgf_eve_spec.pro are used to do preliminary processing for SDO/AIA spectra data.
